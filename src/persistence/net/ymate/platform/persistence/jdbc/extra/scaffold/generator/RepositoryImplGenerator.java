@@ -57,7 +57,7 @@ public class RepositoryImplGenerator extends AbstractGenerator {
 	 * @see com.ymatesoft.scaffold.IGenerator#getTargetFileName()
 	 */
 	public String getTargetFileName() {
-		return ((String) this.getParamItem("packageName")).replace('.', '/') + "/repository/impl/" + repositoryName + "RepositoryImpl.java";
+		return ((String) this.getParamItem("packageName")).replace('.', '/') + "/repository/impl/" + repositoryName + "Repository.java";
 	}
 
 	/* (non-Javadoc)

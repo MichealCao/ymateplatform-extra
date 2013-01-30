@@ -7,6 +7,7 @@
  */
 package ${packageName}.model;
 
+import net.ymate.platform.persistence.jdbc.JDBC;
 import net.ymate.platform.persistence.jdbc.annotation.Column;
 import net.ymate.platform.persistence.jdbc.annotation.Id;
 import net.ymate.platform.persistence.jdbc.annotation.Table;
@@ -120,7 +121,7 @@ public class ${modelName?cap_first}Model extends BaseEntity<${primaryKeyType}> {
 	 *          <td>0.0.0</td>
 	 *          <td>创建类</td>
 	 *          <td>刘镇</td>
-	 *          <td>2011-10-30下午06:57:16</td>
+	 *          <td>${lastUpdateTime?string("yyyy-MM-dd a HH:mm:ss")}</td>
 	 *          </tr>
 	 *          </table>
 	 */
@@ -130,6 +131,6 @@ public class ${modelName?cap_first}Model extends BaseEntity<${primaryKeyType}> {
 	</#list>
 	}
 
-	public static final String TABLE_NAME = "${tableName}";
+	public static final String TABLE_NAME = JDBC.TABLE_PREFIX + "${tableName}";
 
 }

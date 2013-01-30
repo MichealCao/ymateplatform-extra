@@ -36,7 +36,7 @@ import net.ymate.platform.persistence.jdbc.annotation.PK;
  *          </table>
  */
 @PK
-public class ${modelName?cap_first}PK implements IEntityPk {
+public class ${modelName?cap_first}PK implements IEntityPK {
 
 	/**
 	 * 

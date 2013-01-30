@@ -1,5 +1,5 @@
 /**
- * <p>文件名:	${repositoryName?cap_first}RepositoryImpl.java</p>
+ * <p>文件名:	${repositoryName?cap_first}Repository.java</p>
  * <p>版权:		详见产品版权说明书</p>
  * <p>公司:		YMateSoft Co., Ltd.</p>
  * <p>项目名：	yMatePlatform-Scaffold</p>
@@ -12,7 +12,7 @@ import ${packageName}.repository.I${repositoryName?cap_first}Repository;
 
 /**
  * <p>
- * ${repositoryName?cap_first}RepositoryImpl
+ * ${repositoryName?cap_first}Repository
  * </p>
  * <p>
  * Code Generator By yMatePlatform-Scaffold
