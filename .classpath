@@ -8,9 +8,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/ymateplatform"/>
-	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.9-bin.jar"/>
-	<classpathentry kind="lib" path="/ymateplatform/lib/commons-lang-2.5.jar"/>
-	<classpathentry kind="lib" path="/ymateplatform/lib/freemarker-2.3.16.jar"/>
+	<classpathentry kind="lib" path="/ymateplatform-libs/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="/ymateplatform-libs/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/ymateplatform-libs/lib/freemarker-2.3.16.jar"/>
+	<classpathentry kind="lib" path="/ymateplatform-libs/lib/mysql-connector-java-5.1.9-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
