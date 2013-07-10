@@ -51,7 +51,7 @@ public class PluginStartupClassGenerator extends AbstractGenerator {
 	 * @see com.ymatesoft.scaffold.IGenerator#getTargetFileName()
 	 */
 	public String getTargetFileName() {
-		return "src/core/" + Config.getValue("plugin_package_name").replace('.', '/') + "/" + Config.getValue("plugin_startup_class");
+		return "src/core/" + Config.getValue("plugin_package_name").replace('.', '/') + "/" + Config.getValue("plugin_startup_class") + ".java";
 	}
 
 	/* (non-Javadoc)

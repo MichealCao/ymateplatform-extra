@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="${project_name}" basedir="." default="sync">
-	<property name="CONFIGURATION_HOME" value="../cwtWeb_base" />
+	<property name="CONFIGURATION_HOME" value="../ymateweb-base" />
 
 	<property name="DIST_DIR" value="${r"${CONFIGURATION_HOME}"}/WebContent/WEB-INF/plugins/${r"${ant.project.name}"}"/>
 	<property name="SRC_DIR" value="src"/>
